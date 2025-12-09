@@ -1,0 +1,7 @@
+langgraph
+langchain
+langchain-anthropic
+langchain_core
+pinecone>=5.0.0,<6
+httpx
+python-dotenv

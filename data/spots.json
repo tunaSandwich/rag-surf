@@ -1,0 +1,328 @@
+{
+  "spots": [
+    {
+      "name": "Naples",
+      "description": "A secluded right reef break on the Gaviota Coast north of Goleta. Naples is a fickle, walk-in spot that requires a solid west swell to break. At its best, it resembles a quality right point break with occasional long workable lines and hollow sections at low tide. The wave features a vertical drop with short but hollow barrel sections running about 30 yards. Heavy kelp presence and a remote, old-California feel. Tom Curren famously owned a house here. The spot is less crowded than most SB breaks due to the 2-mile walk from Haskell's Beach, but when Naples is on, so are most other spots which are often better.",
+      "summary": "Naples is a right reef break on the Gaviota Coast near Santa Barbara. It comes alive on solid West swells (260-280°) with at least 4ft on the buoy; however, long-period energy (>15s) is critical to help the swell wrap around Point Conception. Ideal conditions align with a North wind (offshore) and an incoming low to mid tide. Expect punchier, heavier waves than town spots. Note that NW swells over 300° won't wrap in, and south swells are blocked by the Channel Islands. Best for intermediate to advanced surfers due to shallow reef ledges, heavy kelp, and hollow sections.",
+      "coordinates": {
+        "latitude": 34.435549,
+        "longitude": -119.956529
+      },
+      
+      "coastal_orientation_degrees": 195,
+      "coastal_orientation_description": "SSW-facing, part of SB's unique south-facing transverse coastline",
+      
+      "wave_type": "reef_break",
+      "primary_direction": "right",
+      "secondary_direction": "some lefts possible",
+      
+      "channel_islands_shadow": {
+        "blocked_directions_degrees": [165, 220],
+        "description": "Santa Cruz, Santa Rosa, and Anacapa islands sit directly SSW, blocking most S and SW swells. Swells must have W component (240°+) to wrap around the western edge of the islands with retained energy.",
+        "swell_refraction_note": "Per Surfline, swells can bend around the Channel Islands from 180° to 260°. Western edge retains more momentum as it wraps."
+      },
+      
+      "ideal_swell_direction": "W",
+      "ideal_swell_direction_degrees_min": 260,
+      "ideal_swell_direction_degrees_max": 280,
+      "acceptable_swell_direction_degrees_min": 240,
+      "acceptable_swell_direction_degrees_max": 290,
+      "blocked_swell_directions": {
+        "north_swells": "NW swells (300°+) can't wrap in - too much north angle passes by Point Conception",
+        "south_swells": "Direct S swells (180°) blocked by Channel Islands"
+      },
+      
+      "ideal_swell_size_min_ft": 4,
+      "ideal_swell_size_max_ft": 8,
+      "minimum_swell_to_break_ft": 4,
+      "buoy_to_face_ratio": 0.6,
+      "buoy_reference": "Point Conception buoy (46218) or West Santa Barbara buoy (46054)",
+      "size_note": "Needs a 'solid' west swell to get going. Typically half the size of Rincon when both are on.",
+      
+      "ideal_swell_period_min": 10,
+      "ideal_swell_period_max": 15,
+      "period_note": "Mid-period groundswells work best. Similar to El Cap which needs period under 15 seconds. Longer period (16+) can work but may section differently.",
+      
+      "ideal_tide": "low_to_mid",
+      "tide_details": {
+        "low_tide": "Fastest wave, tubes possible, but watch for exposed reef",
+        "mid_tide": "Good balance of power and safety",
+        "high_tide": "Mushier, less defined, not much beach left",
+        "optimal_movement": "incoming from low"
+      },
+      
+      "ideal_wind_direction": "N/NE",
+      "wind_details": {
+        "offshore": ["N", "NE"],
+        "cross_shore_ok": ["NW"],
+        "onshore_kills_it": ["S", "SW", "SE"]
+      },
+      
+      "best_season": {
+        "primary": ["November", "December", "January", "February"],
+        "secondary": ["October", "March"],
+        "avoid": ["June", "July", "August"],
+        "reason": "Winter NW/W storms generate the swells that wrap around the Channel Islands. Summer is flat due to island shadow blocking S hemisphere swells."
+      },
+      
+      "consistency": "fickle",
+      "consistency_note": "More often than not you will get skunked. When conditions align, it's worth the walk.",
+      
+      "recommended_board_types": {
+        "small_days_3_4ft": ["midlength", "longboard", "fish"],
+        "medium_days_4_6ft": ["shortboard", "fish", "midlength"],
+        "bigger_days_6ft_plus": ["shortboard", "step-up"],
+        "general_note": "Kelp requires smooth bottom turns; fish or midlength often ideal for the workable walls"
+      },
+      
+      "comparison_spots": {
+        "similar_wave": "Campus Point, Devereux - but Naples has more punch when on"
+      }
+    },
+    {
+      "name": "Rincon - Indicators",
+      "description": "The outermost section at the top of the point, visually obstructed from the freeway. Indicator is the most exposed part of Rincon, catching the biggest swell. This is where marathon surfers pull out longer boards to try for the full connection to Rivermouth and Cove - a 300-yard ride. Usually the biggest wave of the three sections but also most susceptible to wind. Produces fast left-breaking waves during summer when S swells sneak past the Channel Islands. On big swells, gun riders sit out here. Rarely connects to Rivermouth except on large direct W swells.",
+      "summary": "Indicators is the outermost, most exposed section of Rincon near Santa Barbara. It acts as the primary swell magnet, catching the biggest waves and working on all tides (though high tide can be mushy). It requires a West swell (250-280°); however, swell period is the critical limiter here. Standard long-period rules do not apply: WNW swells with periods >15 seconds feel the bathymetry at Gaviota and refract away from Rincon. The 'sweet spot' is a mid-period (12-14s) swell which allows the energy to penetrate deep enough into the channel to hit the point. It is highly exposed to wind (needs N/NE offshore). Fun fact: steep Summer South swells can occasionally create a rideable left-hander here.",
+
+      "coordinates": {
+        "latitude": 34.3733,
+        "longitude": -119.4785
+      },
+      
+      "coastal_orientation_degrees": 200,
+      "coastal_orientation_description": "SSW-facing, headland oriented mostly west with gradual swing back toward SE-facing coastline",
+      
+      "wave_type": "point_break",
+      "primary_direction": "right",
+      "secondary_direction": "left (on summer S swells)",
+      
+      "channel_islands_shadow": {
+        "blocked_directions_degrees": [165, 200],
+        "description": "Summer S swells largely blocked by Channel Islands. Occasionally S swell sneaks through and creates fast lefts at Indicator. Winter W/NW swells pass through gap between islands and Point Conception.",
+        "swell_refraction_note": "Long-period WNW swells (16s+) get sucked into Point Conception shelf and refract toward Gaviota coast, reducing size at Rincon."
+      },
+      
+      "ideal_swell_direction": "W",
+      "ideal_swell_direction_degrees_min": 250,
+      "ideal_swell_direction_degrees_max": 280,
+      "acceptable_swell_direction_degrees_min": 240,
+      "acceptable_swell_direction_degrees_max": 300,
+      "blocked_swell_directions": {
+        "north_swells": "WNW swells over 16-second period refract away from Rincon toward Gaviota coast",
+        "south_swells": "Most S swells blocked by Channel Islands, though occasional sneaker sets create summer lefts"
+      },
+      
+      "ideal_swell_size_min_ft": 4,
+      "ideal_swell_size_max_ft": 10,
+      "minimum_swell_to_break_ft": 3,
+      "buoy_to_face_ratio": 0.8,
+      "buoy_reference": "Anacapa Passage buoy or East Santa Barbara buoy",
+      "size_note": "Most exposed section - biggest of the three. Handles larger swells than Cove. On days 8ft+, gun riders congregate here.",
+      
+      "ideal_swell_period_min": 10,
+      "ideal_swell_period_max": 15,
+      "period_note": "Period under 15 seconds critical. WNW swells over 16s refract into Point Conception shelf and lose energy before reaching Rincon. W/WSW swells more forgiving on longer periods.",
+      
+      "ideal_tide": "all_tides",
+      "tide_details": {
+        "low_tide": "Works well, can get hollow",
+        "mid_tide": "Good balance",
+        "high_tide": "Still surfable, higher tide can occasionally make the top of point break better but creates wonky current",
+        "optimal_movement": "works at all stages"
+      },
+      
+      "ideal_wind_direction": "NE/E",
+      "wind_details": {
+        "offshore": ["NE", "E"],
+        "cross_shore_ok": ["N", "NW"],
+        "onshore_kills_it": ["W", "SW", "S"],
+        "note": "Most exposed to wind of the three sections. E is more offshore here than at Cove."
+      },
+      
+      "best_season": {
+        "primary": ["November", "December", "January", "February"],
+        "secondary": ["October", "March"],
+        "avoid": ["June", "July", "August"],
+        "reason": "Winter W/WNW swells from North Pacific storms. Summer mostly flat due to Channel Islands shadow, though occasional S swell sneaker creates summer lefts."
+      },
+      
+      "consistency": "very_consistent",
+      "consistency_note": "Most consistent of the three sections due to exposure. Will have something even when Cove is flat.",
+      
+      "recommended_board_types": {
+        "small_days_2_4ft": ["longboard", "midlength", "fish"],
+        "medium_days_4_6ft": ["shortboard", "fish", "midlength", "longboard"],
+        "bigger_days_6ft_plus": ["shortboard", "step-up", "gun"],
+        "general_note": "Marathon surfers use longer boards (7'0\"+) to maximize connection potential. Step-ups and guns on bigger days."
+      },
+      
+      "comparison_spots": {
+        "similar_wave": "Outside section of other CA point breaks; Malibu First Point on bigger swells"
+      }
+    },
+    
+    {
+      "name": "Rincon - Rivermouth",
+      "description": "The fastest and most hollow section of Rincon, extending from the mouth of Rincon Creek to the large white/stone house. This is the barrel section - tube rides occur mainly here at low tide. The most unpredictable section that links Indicator to Cove. Easily accessed via paddle-out from the river mouth channel, making it typically the most crowded spot. Can be polluted after rain due to creek runoff. When it connects from Indicator and through to Cove, you've completed the 'iditarod of pointbreak surfing.'",
+      "summary": "Rivermouth is the fastest and most hollow section of Rincon, running about 50 yards from the creek mouth to the large white house that marks the transition to the Cove. This is 'the barrel section'—tube rides occur here at low tide when the sand is right. The key variable is rain: after good winter rains, Rincon Creek deposits sand and silt across the cobblestone bottom creating what Conner Coffin describes as 'one huge bank, just absolutely tapered and perfect.' Without rain, the bottom is uneven and waves tend to section off. Even on good days, more than half of the waves that barrel through Rivermouth end up shutting down—it's a gamble. Best on W to WNW swell (260-300°) with period under 15 seconds and low or dropping tide. The easiest paddle-out at Rincon (straight from the creek channel) makes it the most crowded section. NW winds are offshore. Sweet spot is head-high to overhead; at max size (12-15ft), gun riders take over at Indicator and the Rivermouth becomes a speed section for connecting to the Cove.",
+
+      "coordinates": {
+        "latitude": 34.3725,
+        "longitude": -119.4770
+      },
+      
+      "coastal_orientation_degrees": 180,
+      "coastal_orientation_description": "S-facing, transitional section between the exposed point and protected cove",
+      
+      "wave_type": "point_break",
+      "primary_direction": "right",
+      "secondary_direction": null,
+      
+      "channel_islands_shadow": {
+        "blocked_directions_degrees": [165, 200],
+        "description": "Same shadow effect as rest of Rincon. Summer S swells blocked. Needs W element to fire.",
+        "swell_refraction_note": "Swell refracts around point, creating the fastest section with most energy concentration."
+      },
+      
+      "ideal_swell_direction": "WNW",
+      "ideal_swell_direction_degrees_min": 260,
+      "ideal_swell_direction_degrees_max": 290,
+      "acceptable_swell_direction_degrees_min": 250,
+      "acceptable_swell_direction_degrees_max": 300,
+      "blocked_swell_directions": {
+        "north_swells": "WNW swells over 16-second period refract toward Gaviota",
+        "south_swells": "Blocked by Channel Islands"
+      },
+      
+      "ideal_swell_size_min_ft": 4,
+      "ideal_swell_size_max_ft": 8,
+      "minimum_swell_to_break_ft": 3,
+      "buoy_to_face_ratio": 0.75,
+      "buoy_reference": "Anacapa Passage buoy or East Santa Barbara buoy",
+      "size_note": "Marginally smaller than Indicator. Most powerful and hollow of the three sections. Sweet spot is solid head-high to overhead.",
+      
+      "ideal_swell_period_min": 10,
+      "ideal_swell_period_max": 15,
+      "period_note": "Period under 15-16 seconds critical for Rincon overall. Shorter periods create faster, more hollow sections here.",
+      
+      "ideal_tide": "low",
+      "tide_details": {
+        "low_tide": "Best - fastest wave, tubes appear, most hollow",
+        "mid_tide": "Still good, less hollow",
+        "high_tide": "Mushier, sections less defined",
+        "optimal_movement": "dropping tide best"
+      },
+      
+      "ideal_wind_direction": "NW",
+      "wind_details": {
+        "offshore": ["NW", "N"],
+        "cross_shore_ok": ["NE"],
+        "onshore_kills_it": ["S", "SW", "W"],
+        "note": "Some shelter from N winds. NW is technically offshore for this section's orientation."
+      },
+      
+      "best_season": {
+        "primary": ["November", "December", "January", "February"],
+        "secondary": ["October", "March"],
+        "avoid": ["June", "July", "August"],
+        "reason": "Winter swells required. Summer flat."
+      },
+      
+      "consistency": "fairly_consistent",
+      "consistency_note": "Most unpredictable section - sometimes connects, sometimes sections out. Easy paddle-out channel makes it most crowded.",
+      
+      "recommended_board_types": {
+        "small_days_2_4ft": ["shortboard", "fish", "midlength"],
+        "medium_days_4_6ft": ["shortboard", "fish"],
+        "bigger_days_6ft_plus": ["shortboard", "step-up"],
+        "general_note": "Faster wave favors shortboards. Fish good for generating speed through sections. Barrel-hunters use performance shortboards."
+      },
+      
+      "comparison_spots": {
+        "similar_wave": "Hollow sections of Lower Trestles; fast sections of other CA cobblestone points"
+      }
+    },
+    
+    {
+      "name": "Rincon - The Cove",
+      "description": "The crown jewel of Rincon - the last flawless section that starts halfway up the point and funnels onto the rocks lining Highway 101. This is where Tom Curren developed his legendary style. On an average day, produces knee-to-waist-high waves perfect for longboarding. But during solid W swells, the Cove transforms into a world-class right with rides up to 300 yards. Multiple takeoff spots depending on swell. The wave is so close to perfection that as surf journalist Bill Cleary wrote in 1966, 'maneuvering seems inappropriate, an insult to the dignity of the wave.'",
+      "summary": "The Cove is the crown jewel of Rincon—the most sheltered inside section of the point break on the Santa Barbara/Ventura county line. Produces the smallest but most perfectly tapered waves of the three sections; a head-high wave at Indicator typically becomes waist-high by the time it wraps into The Cove. Works on a broad swell window from NW through WSW (optimal around W 260-280°), though the period constraint matters more than exact direction—swells need to be under 16 seconds or the energy refracts toward Point Conception. Surfable across most tides (low is fastest and most defined, but mid works well). Rides up to 300 yards on solid winter swells. A longboard haven on average days producing knee-to-waist-high reelers, but transforms into a world-class performance wave when it's really on. Per local pro Conner Coffin: 'When it's on at the top of the Cove it's my favourite place to surf... those waves go all the way to the freeway.' NW winds are offshore. Unlike Indicator which shifts around, The Cove is 'just one long line'—predictable takeoff, predictable wall.",
+
+      "coordinates": {
+        "latitude": 34.3715,
+        "longitude": -119.4755
+      },
+      
+      "coastal_orientation_degrees": 160,
+      "coastal_orientation_description": "SSE-facing, protected inside the bay - most sheltered section",
+      
+      "wave_type": "point_break",
+      "primary_direction": "right",
+      "secondary_direction": null,
+      
+      "channel_islands_shadow": {
+        "blocked_directions_degrees": [165, 200],
+        "description": "In the lee of the point, most protected from adverse conditions but also most shadowed from smaller swells.",
+        "swell_refraction_note": "Swell wraps around point and focuses energy into the cove. Long-period WNW gets refracted away before reaching here."
+      },
+      
+      "ideal_swell_direction": "W",
+      "ideal_swell_direction_degrees_min": 250,
+      "ideal_swell_direction_degrees_max": 272,
+      "acceptable_swell_direction_degrees_min": 240,
+      "acceptable_swell_direction_degrees_max": 310,
+
+      "blocked_swell_directions": {
+        "north_swells": "NNW swells (340°+) won't wrap into cove properly",
+        "south_swells": "Blocked by Channel Islands"
+      },
+      
+      "ideal_swell_size_min_ft": 3,
+      "ideal_swell_size_max_ft": 8,
+      "minimum_swell_to_break_ft": 2,
+      "buoy_to_face_ratio": 0.6,
+      "buoy_reference": "Anacapa Passage buoy or East Santa Barbara buoy",
+      "size_note": "Smallest of the three sections. A head-high wave at Indicator typically becomes waist-high by the time it hits The Cove. Ventura spots to the south may be pumping while Rincon is smaller until period drops below 16s or swell shifts more W-WSW.",
+
+      "ideal_swell_period_min": 10,
+      "ideal_swell_period_max": 15,
+      "period_note": "Period under 16 seconds critical. Long-period WNW swells get sucked into Point Conception. W-WSW swells work on slightly longer periods.",
+      
+      "ideal_tide": "low_to_mid",
+      "tide_details": {
+        "low_tide": "Fastest, most defined walls. Barrel sections possible inside.",
+        "mid_tide": "Very surfable, good balance of shape and safety",
+        "high_tide": "Still works on smaller swells. Dangerous on bigger days - waves throw into granite boulders supporting freeway. Can create wonky currents.",
+        "optimal_movement": "dropping tide, but less tide-sensitive than Rivermouth"
+      },
+      "ideal_wind_direction": "NW",
+      "wind_details": {
+        "offshore": ["NW"],
+        "cross_shore_ok": ["N", "NE"],
+        "onshore_kills_it": ["S", "SW", "W"],
+        "note": "Some shelter from N winds due to cove orientation. NW is technically offshore here."
+      },
+      
+      "best_season": {
+        "primary": ["November", "December", "January", "February"],
+        "secondary": ["October", "March"],
+        "avoid": ["June", "July", "August"],
+        "reason": "Winter W/WNW swells required. Summer flat due to Channel Islands shadow."
+      },
+      
+      "consistency": "consistent",
+      "consistency_note": "More consistent than Rivermouth due to focused swell energy in cove, but smallest of the three.",
+      
+      "recommended_board_types": {
+        "small_days_2_4ft": ["longboard", "midlength", "fish"],
+        "medium_days_4_6ft": ["longboard", "shortboard", "fish", "midlength"],
+        "bigger_days_6ft_plus": ["shortboard", "fish"],
+        "general_note": "Longboard haven on average days. The tapered walls and long rides make it ideal for classic longboard surfing. On bigger swells, performance shortboards for the leg-burning rides."
+      },
+      
+      "comparison_spots": {
+        "similar_wave": "Malibu First Point (winter counterpart); other world-class CA longboard waves"
+      }
+    }
+  ]
+}
